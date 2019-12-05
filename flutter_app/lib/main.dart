@@ -13,9 +13,10 @@ void main() => runApp(
           )
         ),
         child: FlareActor(
-          "assets/logo_way.flr",
+          /*"assets/logo_way.flr",*/
+          "assets/loading_button.flr",
           animation: "acao",
-          fit: BoxFit.fill,
+          fit: BoxFit.contain,
         ),
       ),
     ),
